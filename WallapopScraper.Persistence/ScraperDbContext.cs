@@ -16,6 +16,7 @@ namespace WallapopScraper.Persistence
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
+            // Make sure the folder WallapopScraper is created before executing Update-Database
             DbPath = System.IO.Path.Join(path, "WallapopScraper\\scraper.db");
         }
 
