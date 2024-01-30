@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using WallapopScraper.Persistence;
 
 namespace WallapopScraper.Web.Pages
 {
@@ -14,7 +15,6 @@ namespace WallapopScraper.Web.Pages
 
         public void OnGet()
         {
-
         }
     }
 }

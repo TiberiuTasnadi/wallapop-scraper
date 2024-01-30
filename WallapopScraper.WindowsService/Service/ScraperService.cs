@@ -12,7 +12,7 @@ namespace WallapopScrapper.Service.Service
         public Task Execute()
         {
             using (var driver = new ChromeDriver())
-            {
+            {              
                 string classCard = "ItemCardList__item";
                 string classTitle = "ItemCard__title";
                 string classPrice = "ItemCard__price";
