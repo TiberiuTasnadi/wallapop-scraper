@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallapopScraper", "WallapopScraper.csproj", "{916C5364-F406-452B-B339-DDA352C23702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WallapopScraper.Web", "WallapopScraper.Web\WallapopScraper.Web.csproj", "{ED5F2C78-EC39-48A0-A997-D622B230579D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WallapopScraper.Persistence", "WallapopScraper.Persistence\WallapopScraper.Persistence.csproj", "{8399BF61-8C1C-4042-9AC8-C8A18A391789}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WallapopScraper.Application", "WallapopScraper.Application\WallapopScraper.Application.csproj", "{1EAB37C3-E9FD-4CB1-B35E-8718F78F5E7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WallapopScraper.WindowsService", "WallapopScraper.WindowsService\WallapopScraper.WindowsService.csproj", "{F86ABEBF-000C-4591-8F4E-8C0AEE0A8ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{916C5364-F406-452B-B339-DDA352C23702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{916C5364-F406-452B-B339-DDA352C23702}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{916C5364-F406-452B-B339-DDA352C23702}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{916C5364-F406-452B-B339-DDA352C23702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5F2C78-EC39-48A0-A997-D622B230579D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5F2C78-EC39-48A0-A997-D622B230579D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5F2C78-EC39-48A0-A997-D622B230579D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5F2C78-EC39-48A0-A997-D622B230579D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8399BF61-8C1C-4042-9AC8-C8A18A391789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8399BF61-8C1C-4042-9AC8-C8A18A391789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8399BF61-8C1C-4042-9AC8-C8A18A391789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8399BF61-8C1C-4042-9AC8-C8A18A391789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAB37C3-E9FD-4CB1-B35E-8718F78F5E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAB37C3-E9FD-4CB1-B35E-8718F78F5E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAB37C3-E9FD-4CB1-B35E-8718F78F5E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAB37C3-E9FD-4CB1-B35E-8718F78F5E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86ABEBF-000C-4591-8F4E-8C0AEE0A8ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86ABEBF-000C-4591-8F4E-8C0AEE0A8ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86ABEBF-000C-4591-8F4E-8C0AEE0A8ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86ABEBF-000C-4591-8F4E-8C0AEE0A8ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {83403141-A585-450C-8E2D-B4DFAFD4A7DE}
+		SolutionGuid = {25F31574-C0D8-480B-BA41-AED80A58EA2A}
 	EndGlobalSection
 EndGlobal
